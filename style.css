@@ -1,0 +1,31 @@
+body {
+    background-color: #F9F3DF;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+#container {
+    display: flex;
+    justify-content: center;
+
+}
+#picture {
+    width: 500px;
+}
+.btn {
+    background-color: #78DEC7;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+
+@media all and (max-width: 500px){
+   #picture {
+    width: 250px;
+   }
+}
